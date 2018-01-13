@@ -1,0 +1,107 @@
+using UnityEngine;
+using System.Collections;
+
+public class PlayerGameLogic : MonoBehaviour {
+
+	
+Transform ground;
+Transform wind;
+Transform water;
+Transform fire;
+Transform metal;
+int numberOfStartingBlocks;
+Transform[,] blocks = new Transform[12,6];	
+	
+	// Use this for initialization
+	void Start () {
+	int countBlocks=0;
+	
+
+	for(int rows=0;rows<=11; rows++)
+	{
+		
+		for(int cols=0;cols<=5; cols++)
+		{
+			//var randomBlock = Mathf.Round( Random.Range(0.0,6.0));
+			int randomBlock=1;
+			
+			if(countBlocks>=numberOfStartingBlocks)
+			{
+				cols=7;
+				rows=12;
+			}
+			else
+			{		
+			//posiciones de los players para facilitar el codigo del switch
+			int posAuxX1=playerNumber1.transform.position.x+cols;
+			int posAuxY1=playerNumber1.transform.position.y+rows;
+			int posAuxZ1=playerNumber1.transform.position.z;
+			
+			int posAuxX2=playerNumber2.transform.position.x+cols;
+			int posAuxY2=playerNumber2.transform.position.y+rows;
+			int posAuxZ2=playerNumber2.transform.position.z;
+			
+					switch(randomBlock)
+					{
+						
+					
+						case 1:
+									blocks[rows,cols]=Instantiate(ground,Vector3(posAuxX1,posAuxY1,posAuxZ1),Quaternion.identity);
+									Debug.Log(cols+" "+rows);
+									Instantiate(ground,Vector3(posAuxX2,posAuxY2,posAuxZ2),Quaternion.identity);
+									
+									countBlocks+=1;
+						break;
+						case 2:
+									blocks[rows,cols]=Instantiate(wind,Vector3(posAuxX1,posAuxY1,posAuxZ1),Quaternion.identity);
+									Instantiate(wind,Vector3(posAuxX2,posAuxY2,posAuxZ2),Quaternion.identity);
+
+									  countBlocks+=1;
+						break;
+						case 3:
+									blocks[rows,cols]=Instantiate(water,Vector3(posAuxX1,posAuxY1,posAuxZ1),Quaternion.identity);
+									Instantiate(water,Vector3(posAuxX2,posAuxY2,posAuxZ2),Quaternion.identity);
+
+ 									 countBlocks+=1;
+						break;
+						case 4:
+								blocks[rows,cols]= Instantiate(fire,Vector3(posAuxX1,posAuxY1,posAuxZ1),Quaternion.identity);
+								     Instantiate(fire,Vector3(posAuxX2,posAuxY2,posAuxZ2),Quaternion.identity);
+
+ 									 countBlocks+=1;
+						break;
+						case 5:
+									blocks[rows,cols]= Instantiate(metal,Vector3(posAuxX1,posAuxY1,posAuxZ1),Quaternion.identity);
+									Instantiate(metal,Vector3(posAuxX2,posAuxY2,posAuxZ2),Quaternion.identity);
+
+ 									 countBlocks+=1;
+						break;
+						case 6:
+									blocks[rows,cols]= Instantiate(ground,Vector3(posAuxX1,posAuxY1,posAuxZ1),Quaternion.identity);
+									Instantiate(ground,Vector3(posAuxX2,posAuxY2,posAuxZ2),Quaternion.identity);
+
+								 	countBlocks+=1;	
+						break;
+						default:
+						break;
+						
+						
+					}//switch
+					
+					
+				
+					
+					
+					
+				}//else	
+			}//for cols
+	}//for rows
+	
+			
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}

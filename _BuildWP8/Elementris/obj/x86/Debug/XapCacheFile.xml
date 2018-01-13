@@ -1,0 +1,32 @@
+﻿<xapCache source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Bin\x86\Debug\Elementris_Debug_x86.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="12/28/2013 11:57:37 PM">
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\obj\x86\Debug\Elementris.dll" archivePath="Elementris.dll" lastWriteTime="12/28/2013 11:57:30 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="12/4/2013 6:22:02 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="12/4/2013 6:22:02 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="12/4/2013 6:22:02 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="12/4/2013 6:22:02 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="12/4/2013 6:22:02 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="12/4/2013 6:22:02 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Data\mainData" archivePath="Data\mainData" lastWriteTime="12/28/2013 11:55:51 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Data\managedAssemblies.txt" archivePath="Data\managedAssemblies.txt" lastWriteTime="12/28/2013 11:56:00 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Data\PlayerConnectionConfigFile" archivePath="Data\PlayerConnectionConfigFile" lastWriteTime="12/28/2013 11:55:51 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Data\resources.assets" archivePath="Data\resources.assets" lastWriteTime="12/28/2013 11:55:47 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Data\Resources\unity default resources" archivePath="Data\Resources\unity default resources" lastWriteTime="12/4/2013 6:39:34 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Data\Resources\unity_builtin_extra" archivePath="Data\Resources\unity_builtin_extra" lastWriteTime="12/28/2013 11:55:51 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Data\sharedassets0.assets" archivePath="Data\sharedassets0.assets" lastWriteTime="12/28/2013 11:55:51 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Bin\x86\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="12/28/2013 11:57:31 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Bin\x86\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="12/4/2013 6:22:02 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Bin\x86\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="12/4/2013 6:22:02 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Assembly-CSharp.dll" archivePath="Assembly-CSharp.dll" lastWriteTime="12/28/2013 11:55:59 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Assembly-UnityScript.dll" archivePath="Assembly-UnityScript.dll" lastWriteTime="12/28/2013 11:56:00 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Players\x86\Release\BridgeInterface.winmd" archivePath="BridgeInterface.winmd" lastWriteTime="12/11/2013 3:29:06 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\UnityEngine.dll" archivePath="UnityEngine.dll" lastWriteTime="12/28/2013 11:55:57 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Players\x86\Release\UnityEngineDelegates.winmd" archivePath="UnityEngineDelegates.winmd" lastWriteTime="12/11/2013 3:29:10 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Players\x86\Release\UnityEngineProxy.dll" archivePath="UnityEngineProxy.dll" lastWriteTime="12/11/2013 3:29:12 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Players\x86\Release\UnityPlayer.winmd" archivePath="UnityPlayer.winmd" lastWriteTime="12/11/2013 3:38:56 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Players\x86\Release\WinRTBridge.dll" archivePath="WinRTBridge.dll" lastWriteTime="12/11/2013 3:29:10 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\WinRTLegacy.dll" archivePath="WinRTLegacy.dll" lastWriteTime="12/28/2013 11:55:58 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Players\x86\Release\BridgeInterface.dll" archivePath="BridgeInterface.dll" lastWriteTime="12/11/2013 3:29:06 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Players\x86\Release\UnityEngineDelegates.dll" archivePath="UnityEngineDelegates.dll" lastWriteTime="12/11/2013 3:29:10 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Players\x86\Release\UnityPlayer.dll" archivePath="UnityPlayer.dll" lastWriteTime="12/11/2013 3:39:44 PM" />
+  <file source="C:\Users\A\Documents\Elementris\_BuildWP8\Elementris\Bin\x86\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="12/28/2013 11:57:35 PM" />
+</xapCache>
